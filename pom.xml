@@ -113,6 +113,9 @@
     <project.build.outputTimestamp>2026-02-18T05:18:14Z</project.build.outputTimestamp>
     <slf4jVersion>1.7.36</slf4jVersion>
     <junit.version>5.14.4</junit.version>
+    <version.htmlunit>4.21.0</version.htmlunit>
+    <version.properties-maven-plugin>1.3.0</version.properties-maven-plugin>
+    <version.commons-email>1.6.0</version.commons-email>
   </properties>
 
   <dependencyManagement>
@@ -208,7 +211,7 @@
       <dependency>
         <groupId>org.htmlunit</groupId>
         <artifactId>htmlunit</artifactId>
-        <version>4.21.0</version>
+        <version>${version.htmlunit}</version>
       </dependency>
       <dependency>
         <!-- used in the unit tests and maven-shared-utils:3.3.4 -->
