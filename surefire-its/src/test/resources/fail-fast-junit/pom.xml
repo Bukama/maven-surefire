@@ -33,22 +33,19 @@
   <artifactId>jiras-surefire-580-junit</artifactId>
   <version>1.0</version>
 
-  <properties>
-    <junit>4.12</junit>
-    <junit.version>6.0.1</junit.version>
-  </properties>
+
 
   <dependencies>
     <dependency>
       <groupId>org.junit.vintage</groupId>
       <artifactId>junit-vintage-engine</artifactId>
-      <version>${junit.version}</version>
+      <version>@junit6.version@</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-api</artifactId>
-      <version>${junit.version}</version>
+      <version>@junit6.version@</version>
       <scope>test</scope>
     </dependency>
   </dependencies>

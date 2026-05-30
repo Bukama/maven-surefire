@@ -36,9 +36,6 @@
     <version>1.0-SNAPSHOT</version>
     <name>Test for no test directory</name>
 
-    <properties>
-        <junit.version>3.8.1</junit.version>
-    </properties>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>

@@ -28,7 +28,7 @@
     <name>Test for JUnit 4</name>
 
     <properties>
-        <junitVersion>4.13.2</junitVersion>
+        <junitVersion>@junit4.version</junitVersion>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>

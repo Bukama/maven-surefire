@@ -30,14 +30,13 @@
   <properties>
     <maven.compiler.release>${java.specification.version}</maven.compiler.release>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <junit.version>6.0.1</junit.version>
   </properties>
 
   <dependencies>
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-api</artifactId>
-      <version>${junit.version}</version>
+      <version>@junit6.version@</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
@@ -54,7 +53,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.14.0</version>
+        <version>@version.maven-compiler-plugin@</version>
       </plugin>
     </plugins>
   </build>
