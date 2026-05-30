@@ -94,7 +94,7 @@ if JUnit < 4.12 is present
       <dependency>
         <groupId>org.junit.vintage</groupId>
         <artifactId>junit-vintage-engine</artifactId>
-        <version>5.9.1</version>
+        <version>@junit.version@</version>
       </dependency>
     </dependencies>
   </plugin>

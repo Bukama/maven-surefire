@@ -116,7 +116,7 @@
     <!-- Tests are bound to specific JUnit major versions -->
     <junit4.version>4.13.2</junit4.version>
     <junit6.version>6.1.0</junit6.version>
-    <!-- This is the default version -->
+    <!-- This is the default version from parent -->
     <junit.version>${versions.junit5}</junit.version>
 
 

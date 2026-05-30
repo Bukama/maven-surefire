@@ -30,7 +30,6 @@
 
 
   <properties>
-    <junitVersion>4.12</junitVersion>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
@@ -39,7 +38,7 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>${junitVersion}</version>
+      <version>@junit4.version@</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
